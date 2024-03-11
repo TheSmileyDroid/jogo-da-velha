@@ -1,0 +1,52 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Compiled Executables
+*.exe
+*.out
+
+# Dependency files
+*.d
+
+# Build files
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.sln
+*.suo
+*.swp
+*.swo
+
+# Editor swap files
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Miscellaneous
+*.class
+*.sln.cache
+*.tmp
+*.bak
+*.orig
+*.swp
+*.lock
+
+.venv/
+CMakeFiles/
