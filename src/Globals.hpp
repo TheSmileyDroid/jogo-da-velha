@@ -13,3 +13,9 @@ extern SDL_Renderer *glRenderer;
 extern Board *gBoard;
 
 extern int gTurn;
+
+extern float gTargetFPS;
+
+extern float gDeltaTime;
+
+extern TTF_Font *gDebugFont;

@@ -1,11 +1,14 @@
 #include "Globals.hpp"
 #include "App.hpp"
-#include <iostream>
-#include <SDL2/SDL.h>
+#include "precompiled.hpp"
 
 int main(int argc, char *argv[])
 {
-    App::init();
+    if (App::init() != 0)
+    {
+        std::cout << "Failed to initialize!" << std::endl;
+        return -1;
+    }
     App::run();
     App::deinit();
 
